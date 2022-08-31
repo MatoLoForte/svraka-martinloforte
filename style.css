@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    gap: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 270px 150px 0;  
+}
+
+header{
+    background-color:white;
+    height: 190px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    line-height: 0;
+    display: flex;
+    justify-content:center;
+    list-style-image: none;
+}
+
+.logo a{
+    
+    text-decoration: none;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+.logo a img{
+    width: 40%;
+    height: auto;
+    margin: 40px 30%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 30%;
+}
+
+.navbar__enlace{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+
+.navbar__enlace:hover{
+    color: rgb(160, 160, 160);
+
+}
+
+main{
+margin-top:-80px;
+}
+
+.container{
+    background-color: blueviolet;
+    border: 10px solid black;
+    margin: auto;
+    width: 800px;
+    padding: 30px;
+    box-shadow: 0 25px 50px -15px rgba(0,0,0,0.5);
+}
+
+ul li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.slider{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    }
+
+.slider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+}
+
+.slider li img{
+    width: 92%;
+    height: 350px;
+    object-fit:cover;
+    border-radius: 20px;
+}
+
+.slider li img:first-child{
+    opacity: 1;
+}
+ 
+.menu{
+    text-align: center;
+    margin: 20px;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a{
+    display: inline-block;
+    background-color: gray;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+.descripcion{
+    background-color: blue;
+    border: 10px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.marca{
+    width: 50px;
+    height: 50px;
+}
+
+footer{
+margin-bottom: 15px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.redes{
+    text-decoration: none;
+}
+
+/* pagina SOBRE MI */
+
+.section{
+    padding: 60px;
+    margin: auto;
+}
+
+.paula{
+    font-weight: bold;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.paula__contenido{
+    display: flex;
+    justify-content: center;
+}
+
+.paula__contenido p{
+    margin-top: 90px;
+}
+
+.svraka{
+    font-weight: bold;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.svraka__contenido{
+    display: flex;
+    justify-content: center;
+}
+
+.svraka__contenido p{
+    padding: auto;
+    margin-top: 90px;
+}
+
+/* Pagina WORKSHOP */
+
+main {
+    padding: 20px auto;
+    margin: auto;
+}
+
+.work{
+    margin-top: -60px;
+    font-weight: bold;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.work__contenido{
+    margin-top: -150px;
+    display: flex;
+    justify-content: center;
+}
+
+.work__contenido p{
+    margin-top: 90px;
+}
+
+.section{
+    margin-top: -150px;
+display: flex;
+align-items: center;
+}
+
+.slider-frame {
+	width: 1500px;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
