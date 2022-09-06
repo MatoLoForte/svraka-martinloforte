@@ -24,6 +24,7 @@ main {
 footer{
     margin-bottom: 15px;
         margin-top: 40px;
+        padding: 10px;
         display: flex;
         justify-content: space-between;
         
@@ -207,72 +208,66 @@ ul li{
 
 
 /* pagina SOBRE MI */
-/* 
+
+main{
+padding: 50px;
+}
+
 .section{
-    padding: 60px;
-    margin: auto;
+display: grid;
+grid-template-columns: 20% 50% 20%;
+grid-template-rows: 50% 50%;
+row-gap: 10px;
+justify-content: space-around;
+justify-items: center;
 }
 
 .paula{
-    font-weight: bold;
-    font-size: 3rem;
-    display: flex;
-    justify-content: center;
-}
-.paula__contenido{
-    display: flex;
-    justify-content: center;
-}
-
-.paula__contenido p{
-    margin-top: 90px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    line-height: 300px;
 }
 
 .svraka{
-    font-weight: bold;
-    font-size: 3rem;
-    display: flex;
-    justify-content: center;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    line-height: 300px;
 }
 
-.svraka__contenido{
-    display: flex;
-    justify-content: center;
+p{
+    text-align:justify;
 }
-
-.svraka__contenido p{
-    padding: auto;
-    margin-top: 90px;
-}
-
-/* Pagina WORKSHOP */
-
-/* main {
-    padding: 20px auto;
-    margin: auto;
+/*workshop*/
+main{
+    margin: 10px;
+    height: auto;
+    padding: 50px;
 }
 
 .work{
-    margin-top: -60px;
     font-weight: bold;
     font-size: 3rem;
     display: flex;
     justify-content: center;
 }
-.work__contenido{
-    margin-top: -150px;
+
+.section{
+    margin-top: -60px;
+    gap: 10px
+    padding: auto;
+    display: flex;
+    align-items: center;
+}
+
+.work__contenido{    
     display: flex;
     justify-content: center;
 }
 
 .work__contenido p{
-    margin-top: 90px;
-}
-
-.section{
-    margin-top: -150px;
-display: flex;
-align-items: center;
+    margin-top: -20px;
 }
 
 .slider-frame {
@@ -311,4 +306,10 @@ align-items: center;
 	
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
-}  */
+} 
+
+/*contacto*/
+
+.container1{
+    text-align: left;
+}
