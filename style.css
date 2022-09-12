@@ -217,7 +217,7 @@ padding: 50px;
 display: grid;
 grid-template-columns: 20% 50% 20%;
 grid-template-rows: 50% 50%;
-row-gap: 10px;
+column-gap: 20px;
 justify-content: space-around;
 justify-items: center;
 }
@@ -225,15 +225,15 @@ justify-items: center;
 .paula{
     width: 300px;
     height: auto;
-    text-align: center;
-    line-height: 300px;
+    text-align: start;
+    line-height: 30px;
 }
 
 .svraka{
     width: 300px;
     height: auto;
-    text-align: center;
-    line-height: 300px;
+    text-align: start;
+    line-height: 30px;
 }
 
 p{
